@@ -9,9 +9,9 @@ import com.opensymphony.xwork2.ActionProxy;
 public class AllPersonsFinderTest extends StrutsSpringTestCase {
 	
 	@Override
-	public String getContextLocations() {
+	public String[] getContextLocations() {
 		
-		return "applicationContextTest.xml";
+		return new String [] {"applicationContextTest.xml"};
 		
 	}
 
